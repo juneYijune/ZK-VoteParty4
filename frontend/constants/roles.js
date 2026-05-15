@@ -1,0 +1,5 @@
+export const Roles = {
+  SYSTEM_ADMIN: "SYSTEM_ADMIN",
+  PARTY_ORG_ADMIN: "PARTY_ORG_ADMIN",
+  USER: "USER"
+};

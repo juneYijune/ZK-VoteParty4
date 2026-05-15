@@ -1,0 +1,37 @@
+# Node modules
+node_modules/
+package-lock.json
+
+# Build outputs
+build/
+*.r1cs
+*.sym
+*.wasm
+*.zkey
+*.r1cs.json
+
+# Keys (除了verification_key.json可以提交)
+keys/powersOfTau28_hez_final_10.ptau
+keys/*.ptau
+
+# Contracts (可选，如果不需要链上验证可以忽略)
+contracts/*.sol
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Temporary files
+*.tmp
+*.temp

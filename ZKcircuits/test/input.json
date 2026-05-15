@@ -1,0 +1,16 @@
+{
+  "is_formal_member": "1",
+  "is_active": "1",
+  "fee_paid": "1",
+  "no_conflict": "1",
+  "voter_party_years": "5",
+  "voter_org_code": "1",
+  "require_formal_member": "1",
+  "require_active": "1",
+  "require_fee_paid": "1",
+  "require_no_conflict": "1",
+  "require_party_years": "1",
+  "min_party_years": "3",
+  "require_org_code": "0",
+  "required_org_code": "0"
+}

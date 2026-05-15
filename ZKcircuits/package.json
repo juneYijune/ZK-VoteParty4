@@ -1,0 +1,28 @@
+{
+  "name": "zk-voting-eligibility-circuits",
+  "version": "1.0.0",
+  "description": "零知识证明投票资格验证电路",
+  "scripts": {
+    "compile": "scripts\\compile.bat",
+    "setup": "scripts\\setup.bat",
+    "generate-verifier": "scripts/generate-verifier.bat",
+    "test-circuit": "bash scripts/test-circuit.sh",
+    "test": "echo \"Error: no test command specified\" && exit 1"
+  },
+  "keywords": [
+    "circom",
+    "zk-snark",
+    "zero-knowledge",
+    "voting",
+    "eligibility"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "circom_tester": "^0.0.19",
+    "snarkjs": "^0.7.0"
+  },
+  "dependencies": {
+    "circomlib": "^2.0.5"
+  }
+}

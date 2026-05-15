@@ -1,0 +1,23 @@
+{
+  "name": "contracts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile": "hardhat compile",
+    "test": "hardhat test",
+    "export:abi": "node scripts/export-all-abis.js",
+    "export:PartyVotingabi:frontend": "node scripts/export-frontend-PartyVotingabi.js",
+    "node": "hardhat node",
+    "deploy": "hardhat run scripts/deploy.js --network hardhat",
+    "deploy:localhost": "hardhat run scripts/deploy.js --network localhost",
+    "deploy:local": "hardhat ignition deploy ./ignition/modules/PartyVoting.js --network hardhat"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^4.0.0",
+    "hardhat": "^2.28.0"
+  }
+}

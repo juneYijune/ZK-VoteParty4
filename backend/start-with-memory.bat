@@ -1,0 +1,3 @@
+@echo off
+echo Starting backend with 4GB memory limit...
+node --max-old-space-size=4096 ./src/server.js
